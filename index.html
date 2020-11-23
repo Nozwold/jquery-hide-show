@@ -1,0 +1,9 @@
+<script>
+jQuery( document ).ready(function( $ ) {
+  $('.buttonclass').click(function() {
+    let target = $(this).attr('id');
+    $('.elementclass).hide();
+    $('.' + target).fadeIn();
+  });
+});
+</script>
